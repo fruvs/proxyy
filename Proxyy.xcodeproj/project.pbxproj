@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C0A0012F67630000ABC001 /* ProxyyTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60C0A0032F67630000ABC001 /* ProxyyTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505875A22F67621D00219F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5058758C2F67621B00219F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505875932F67621B00219F64;
+			remoteInfo = Proxyy;
+		};
+		505875AC2F67621D00219F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5058758C2F67621B00219F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505875932F67621B00219F64;
+			remoteInfo = Proxyy;
+		};
+		60C0A0022F67630000ABC001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5058758C2F67621B00219F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C0A0072F67630000ABC001;
+			remoteInfo = ProxyyTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60C0A0052F67630000ABC001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60C0A0012F67630000ABC001 /* ProxyyTunnel.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		505875942F67621B00219F64 /* Proxyy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proxyy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505875A12F67621D00219F64 /* ProxyyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505875AB2F67621D00219F64 /* ProxyyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C0A0032F67630000ABC001 /* ProxyyTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ProxyyTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		505875962F67621B00219F64 /* Proxyy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Proxyy;
+			sourceTree = "<group>";
+		};
+		505875A42F67621D00219F64 /* ProxyyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProxyyTests;
+			sourceTree = "<group>";
+		};
+		505875AE2F67621D00219F64 /* ProxyyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProxyyUITests;
+			sourceTree = "<group>";
+		};
+		60C0A0042F67630000ABC001 /* ProxyyTunnel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProxyyTunnel;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505875912F67621B00219F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5058759E2F67621D00219F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505875A82F67621D00219F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C0A0062F67630000ABC001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5058758B2F67621B00219F64 = {
+			isa = PBXGroup;
+			children = (
+				505875962F67621B00219F64 /* Proxyy */,
+				60C0A0042F67630000ABC001 /* ProxyyTunnel */,
+				505875A42F67621D00219F64 /* ProxyyTests */,
+				505875AE2F67621D00219F64 /* ProxyyUITests */,
+				505875952F67621B00219F64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505875952F67621B00219F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505875942F67621B00219F64 /* Proxyy.app */,
+				60C0A0032F67630000ABC001 /* ProxyyTunnel.appex */,
+				505875A12F67621D00219F64 /* ProxyyTests.xctest */,
+				505875AB2F67621D00219F64 /* ProxyyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505875932F67621B00219F64 /* Proxyy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505875B52F67621D00219F64 /* Build configuration list for PBXNativeTarget "Proxyy" */;
+			buildPhases = (
+				505875902F67621B00219F64 /* Sources */,
+				505875912F67621B00219F64 /* Frameworks */,
+				505875922F67621B00219F64 /* Resources */,
+				60C0A0052F67630000ABC001 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C0A00A2F67630000ABC001 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				505875962F67621B00219F64 /* Proxyy */,
+			);
+			name = Proxyy;
+			packageProductDependencies = (
+			);
+			productName = Proxyy;
+			productReference = 505875942F67621B00219F64 /* Proxyy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505875A02F67621D00219F64 /* ProxyyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505875B82F67621D00219F64 /* Build configuration list for PBXNativeTarget "ProxyyTests" */;
+			buildPhases = (
+				5058759D2F67621D00219F64 /* Sources */,
+				5058759E2F67621D00219F64 /* Frameworks */,
+				5058759F2F67621D00219F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505875A32F67621D00219F64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				505875A42F67621D00219F64 /* ProxyyTests */,
+			);
+			name = ProxyyTests;
+			packageProductDependencies = (
+			);
+			productName = ProxyyTests;
+			productReference = 505875A12F67621D00219F64 /* ProxyyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505875AA2F67621D00219F64 /* ProxyyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505875BB2F67621D00219F64 /* Build configuration list for PBXNativeTarget "ProxyyUITests" */;
+			buildPhases = (
+				505875A72F67621D00219F64 /* Sources */,
+				505875A82F67621D00219F64 /* Frameworks */,
+				505875A92F67621D00219F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505875AD2F67621D00219F64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				505875AE2F67621D00219F64 /* ProxyyUITests */,
+			);
+			name = ProxyyUITests;
+			packageProductDependencies = (
+			);
+			productName = ProxyyUITests;
+			productReference = 505875AB2F67621D00219F64 /* ProxyyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		60C0A0072F67630000ABC001 /* ProxyyTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C0A00D2F67630000ABC001 /* Build configuration list for PBXNativeTarget "ProxyyTunnel" */;
+			buildPhases = (
+				60C0A0092F67630000ABC001 /* Sources */,
+				60C0A0062F67630000ABC001 /* Frameworks */,
+				60C0A0082F67630000ABC001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				60C0A0042F67630000ABC001 /* ProxyyTunnel */,
+			);
+			name = ProxyyTunnel;
+			packageProductDependencies = (
+			);
+			productName = ProxyyTunnel;
+			productReference = 60C0A0032F67630000ABC001 /* ProxyyTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5058758C2F67621B00219F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					505875932F67621B00219F64 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					505875A02F67621D00219F64 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 505875932F67621B00219F64;
+					};
+					505875AA2F67621D00219F64 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 505875932F67621B00219F64;
+					};
+					60C0A0072F67630000ABC001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 5058758F2F67621B00219F64 /* Build configuration list for PBXProject "Proxyy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5058758B2F67621B00219F64;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 505875952F67621B00219F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505875932F67621B00219F64 /* Proxyy */,
+				60C0A0072F67630000ABC001 /* ProxyyTunnel */,
+				505875A02F67621D00219F64 /* ProxyyTests */,
+				505875AA2F67621D00219F64 /* ProxyyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505875922F67621B00219F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5058759F2F67621D00219F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505875A92F67621D00219F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C0A0082F67630000ABC001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505875902F67621B00219F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5058759D2F67621D00219F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505875A72F67621D00219F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C0A0092F67630000ABC001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505875A32F67621D00219F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505875932F67621B00219F64 /* Proxyy */;
+			targetProxy = 505875A22F67621D00219F64 /* PBXContainerItemProxy */;
+		};
+		505875AD2F67621D00219F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505875932F67621B00219F64 /* Proxyy */;
+			targetProxy = 505875AC2F67621D00219F64 /* PBXContainerItemProxy */;
+		};
+		60C0A00A2F67630000ABC001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C0A0072F67630000ABC001 /* ProxyyTunnel */;
+			targetProxy = 60C0A0022F67630000ABC001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		505875B32F67621D00219F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		505875B42F67621D00219F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505875B62F67621D00219F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Proxyy/Proxyy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.Proxyy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505875B72F67621D00219F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Proxyy/Proxyy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.Proxyy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		505875B92F67621D00219F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.ProxyyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proxyy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Proxyy";
+			};
+			name = Debug;
+		};
+		505875BA2F67621D00219F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.ProxyyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proxyy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Proxyy";
+			};
+			name = Release;
+		};
+		505875BC2F67621D00219F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.ProxyyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Proxyy;
+			};
+			name = Debug;
+		};
+		505875BD2F67621D00219F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.ProxyyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Proxyy;
+			};
+			name = Release;
+		};
+		60C0A00B2F67630000ABC001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ProxyyTunnel/ProxyyTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "ProxyyTunnel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.Proxyy.ProxyyTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60C0A00C2F67630000ABC001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ProxyyTunnel/ProxyyTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 985XZHBX3T;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "ProxyyTunnel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fruvs.Proxyy.ProxyyTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5058758F2F67621B00219F64 /* Build configuration list for PBXProject "Proxyy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505875B32F67621D00219F64 /* Debug */,
+				505875B42F67621D00219F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505875B52F67621D00219F64 /* Build configuration list for PBXNativeTarget "Proxyy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505875B62F67621D00219F64 /* Debug */,
+				505875B72F67621D00219F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505875B82F67621D00219F64 /* Build configuration list for PBXNativeTarget "ProxyyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505875B92F67621D00219F64 /* Debug */,
+				505875BA2F67621D00219F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505875BB2F67621D00219F64 /* Build configuration list for PBXNativeTarget "ProxyyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505875BC2F67621D00219F64 /* Debug */,
+				505875BD2F67621D00219F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C0A00D2F67630000ABC001 /* Build configuration list for PBXNativeTarget "ProxyyTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C0A00B2F67630000ABC001 /* Debug */,
+				60C0A00C2F67630000ABC001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5058758C2F67621B00219F64 /* Project object */;
+}
